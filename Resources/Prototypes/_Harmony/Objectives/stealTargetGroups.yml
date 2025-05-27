@@ -1,4 +1,11 @@
 - type: stealTargetGroup
+  id: AnimalGlorp
+  name: steal-target-groups-animal-glorp
+  sprite:
+    sprite: _Harmony/Mobs/Pets/glorp.rsi
+    state: glorp
+
+- type: stealTargetGroup
   id: ClothingEyesGlassesMedical
   name: steal-target-groups-cmogoggles
   sprite:

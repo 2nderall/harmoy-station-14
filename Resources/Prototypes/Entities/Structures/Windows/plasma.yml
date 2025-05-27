@@ -71,6 +71,7 @@
 # Start of Harmony Change: Updates Sprite Pathing
 #    sprite: Structures/Windows/directional.rsi
     sprite: _Harmony/Structures/Windows/directional.rsi
+    state: plasma_window
   - type: Icon
 #    sprite: Structures/Windows/directional.rsi
     sprite: _Harmony/Structures/Windows/directional.rsi

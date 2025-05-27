@@ -104,6 +104,7 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitEngineering
 
+#Harmony change : Hardsuit resprite
 #Spationaut Hardsuit
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseCargoContraband]
@@ -112,9 +113,13 @@
   description: A lightweight hardsuit designed for industrial EVA in zero gravity.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/spatio.rsi
+#start of Harmony change
+    #sprite: Clothing/OuterClothing/Hardsuits/spatio.rsi
+    sprite: _Harmony/Clothing/OuterClothing/Hardsuits/spatio.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/spatio.rsi
+    #sprite: Clothing/OuterClothing/Hardsuits/spatio.rsi
+    sprite: _Harmony/Clothing/OuterClothing/Hardsuits/spatio.rsi
+#end of Harmony change
   - type: PressureProtection
     highPressureMultiplier: 0.7
     lowPressureMultiplier: 1000
@@ -138,6 +143,7 @@
     - WhitelistChameleon
     - HardsuitSpatio
 
+#Harmony change : Hardsuit resprite
 #Salvage Hardsuit
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseCargoContraband]
@@ -146,9 +152,13 @@
   description: A special suit that protects against hazardous, low pressure environments. Has reinforced plating for wildlife encounters.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/salvage.rsi
+#start of Harmony change
+    #sprite: Clothing/OuterClothing/Hardsuits/salvage.rsi
+    sprite: _Harmony/Clothing/OuterClothing/Hardsuits/salvage.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/salvage.rsi
+    #sprite: Clothing/OuterClothing/Hardsuits/salvage.rsi
+    sprite: _Harmony/Clothing/OuterClothing/Hardsuits/salvage.rsi
+#end of Harmony change
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
@@ -170,6 +180,7 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSalvage
 
+#Harmony change : Hardsuit resprite
 #Goliath Hardsuit
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseCargoContraband]
@@ -178,9 +189,13 @@
   description: A lightweight hardsuit, adorned with a patchwork of thick, chitinous goliath hide.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/goliath.rsi
+#start of Harmony change
+    #sprite: Clothing/OuterClothing/Hardsuits/goliath.rsi
+    sprite: _Harmony/Clothing/OuterClothing/Hardsuits/goliath.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/goliath.rsi
+    #sprite: Clothing/OuterClothing/Hardsuits/goliath.rsi
+    sprite: _Harmony/Clothing/OuterClothing/Hardsuits/goliath.rsi
+#end of Harmony change
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
@@ -515,6 +530,7 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSecurityRed
 
+#Harmony change : Hardsuit resprite
 #Luxury Mining Hardsuit
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -524,9 +540,13 @@
   categories: [ DoNotMap ]
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/luxury.rsi
+#start of Harmony change
+    #sprite: Clothing/OuterClothing/Hardsuits/luxury.rsi
+    sprite: _Harmony/Clothing/OuterClothing/Hardsuits/luxury.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/luxury.rsi
+    #sprite: Clothing/OuterClothing/Hardsuits/luxury.rsi
+    sprite: _Harmony/Clothing/OuterClothing/Hardsuits/luxury.rsi
+#end of Harmony change
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
