@@ -1,0 +1,6 @@
+- type: stealTargetGroup
+  id: ClothingEyesGlassesMedical
+  name: steal-target-groups-cmogoggles
+  sprite:
+    sprite: _Harmony/Clothing/Eyes/Glasses/cmo.rsi
+    state: icon
