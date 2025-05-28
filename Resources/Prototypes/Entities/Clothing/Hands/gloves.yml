@@ -513,6 +513,7 @@
     damage:
       types:
         Blunt: 14
+        Structural: 10 # Harmony Change, Adds sturctural damage to allow the QM to use them as a stylish pickaxe
     soundHit:
       collection: Punch
     animation: WeaponArcFist
