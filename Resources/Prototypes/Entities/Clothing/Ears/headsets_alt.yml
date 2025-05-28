@@ -86,8 +86,8 @@
     sprite: Clothing/Ears/Headsets/medical.rsi
   - type: Clothing
     sprite: Clothing/Ears/Headsets/medical.rsi
-  - type: StealTarget
-    stealGroup: ClothingHeadsetAltMedical
+ #- type: StealTarget
+ #  stealGroup: ClothingHeadsetAltMedical    #harmony change
 
 - type: entity
   parent: [ClothingHeadsetAlt, BaseCommandContraband]
